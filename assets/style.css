@@ -673,7 +673,7 @@ a {
   padding-bottom: 20px;
 }
 span.citrusAcana_ingredientDescription {
-  width: 100%;
+  width: 70%;
   max-width: 457px !important;
   display: block;
 }
@@ -887,12 +887,16 @@ span.citrusAcana_ingredientDescription {
     margin-bottom: 12px;
   }
   .citrusAcana__logo_second {
-    left: 44% !important;
-    width: 12% !important;
+    left: 39% !important;
+    width: 10% !important;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 921px) {
+  #citrusAcana_2ndbanner-copy h1 {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
   .citrusAcana_carousel,
   .citrusAcana_carousel-inner,
   .citrusAcana_carousel-item {
@@ -930,11 +934,14 @@ span.citrusAcana_ingredientDescription {
     margin-bottom: 5px;
   }
   .citrusAcana__logo_second {
-    left: 44% !important;
-    width: 12% !important;
+    left: 40% !important;
+    width: 8% !important;
   }
   .citrusAcana_carousel-indicators {
     padding: 6px 6px 2px;
+  }
+  span.citrusAcana_ingredientDescription {
+    max-width: 430px !important;
   }
 }
 
@@ -961,6 +968,13 @@ span.citrusAcana_ingredientDescription {
   }
   .citrusAcana__logo_second {
     display: none;
+  }
+  #citrusAcana_2ndCarousel-item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  span.citrusAcana_ingredientDescription {
+    margin: auto;
   }
   .citrusAcana_banner-copy {
     position: relative;
